@@ -7,12 +7,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
     </head>
     <body id="home">
         <!--NavBar-->
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
@@ -26,8 +30,8 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#home">HOME</a></li>
                         <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#home">PROJECTS</a></li>
-                        <li><a href="#home">CONTACT</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,12 +47,14 @@
         <!--END ABOUT ME-->
 
         <!--PROJECTS-->
-        <div id="projects" class="container-fluid text-center">
+        <div id="projects" class="container text-center">
             <h1>PROJECTS</h1>
             <div class="row">
                 <div class="col-sm-4">
                     <p class="text-center"><strong>PROJECT NAME</strong></p>
-                    <a href="#p1" data-toggle="collapse">CLICK ME</a></a>
+                    <a href="#p1" data-toggle="collapse">
+                        <img src="images/projectImg.jpg" class="img-circle project" width="255" height="255">
+                    </a>
                     <div id="p1" class="collapse">
                         <p>PROJECT INFO</p>
                         <p>PROJECT INFO</p>
@@ -57,25 +63,29 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                        <p class="text-center"><strong>PROJECT NAME</strong></p>
-                        <a href="#p2" data-toggle="collapse">CLICK ME</a>
-                        <div id="p2" class="collapse">
-                            <p>PROJECT INFO</p>
-                            <p>PROJECT INFO</p>
-                            <p>PROJECT INFO</p>
-                            <p>PROJECT INFO</p>
-                        </div>
+                    <p class="text-center"><strong>PROJECT NAME</strong></p>
+                    <a href="#p2" data-toggle="collapse">
+                        <img src="images/projectImg.jpg" class="img-circle project" width="255" height="255">
+                    </a>
+                    <div id="p2" class="collapse">
+                        <p>PROJECT INFO</p>
+                        <p>PROJECT INFO</p>
+                        <p>PROJECT INFO</p>
+                        <p>PROJECT INFO</p>
+                    </div>
                 </div>
                 <div class="col-sm-4">
-                        <p class="text-center"><strong>PROJECT NAME</strong></p>
-                        <a href="#p3" data-toggle="collapse">CLICK ME</a>
-                        <div id="p3" class="collapse">
-                            <p>PROJECT INFO</p>
-                            <p>PROJECT INFO</p>
-                            <p>PROJECT INFO</p>
-                            <p>PROJECT INFO</p>
-                        </div>
+                    <p class="text-center"><strong>PROJECT NAME</strong></p>
+                    <a href="#p3" data-toggle="collapse">
+                        <img src="images/projectImg.jpg" class="img-circle project" width="255" height="255">
+                    </a>
+                    <div id="p3" class="collapse">
+                        <p>PROJECT INFO</p>
+                        <p>PROJECT INFO</p>
+                        <p>PROJECT INFO</p>
+                        <p>PROJECT INFO</p>
                     </div>
+                </div>
             </div>
         </div>
         <!--END PROJECTS-->
