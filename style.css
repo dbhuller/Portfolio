@@ -33,7 +33,19 @@ body {
     opacity: 0.7;
 }
 
+.project:hover {
+    border-color: #f1f1f1;
+}
+
 .col-sm-4 {
     padding: 20px;
+}
+
+#contact {
+    display: block;
+    height: 100vw;
+    width: 100vw;
+    background-color: red;
+    padding: 80px 120px;
 }
 
